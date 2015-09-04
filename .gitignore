@@ -1,1 +1,4 @@
 *.pyc
+build/*
+dist/*
+speaker.egg-info/*
