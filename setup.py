@@ -7,7 +7,7 @@ config = {
     'name': 'speaker',
     'version': '0.1',
     'packages': ['speaker'],
-    'package_data': {'speaker': ['speaker/calibration_data/*.csv']},
+    'package_data': {'speaker': ['calibration_data/*.csv'], },
     'install_requires': ['numpy', 'scipy', 'nose'],
     'author': 'Evan M. Davis',
     'author_email': 'emd@mit.edu',
